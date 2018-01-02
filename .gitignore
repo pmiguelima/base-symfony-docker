@@ -1,0 +1,19 @@
+# Arquivos de logs
+nginx/logs/*.log
+!nginx/logs/.keep
+
+mysql/logs/*.log
+!mysql/logs/.keep
+mysql/data/*
+!mysql/data/.keep
+
+php/logs/*.log
+!php/logs/.keep
+php/composer/
+!php/composer/.keep
+
+#.env
+.idea/
+/www/html/var/
+!/www/html/var/.htaccess
+
